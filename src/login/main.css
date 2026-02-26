@@ -1,4 +1,27 @@
 
+@media (max-width: 768px) {
+    #kc-header {
+        text-align: center;
+    }
+
+    body .login-pf-page .card-pf {
+        margin-left: 10px;
+        margin-right: 10px;
+        border: solid #d00102 2px;
+
+    }
+
+    #kc-info-wrapper {
+        width: 90%;
+        text-align: center;
+    }
+
+    #kc-info {
+        display: flex;
+        justify-content: center;
+    }
+}
+
 body.kcBodyClass {
     background-color: black;
     background-image: none;

@@ -1,7 +1,7 @@
 {
-    "name": "keycloakify-starter",
-    "version": "0.0.2",
-    "description": "Starter for Keycloakify 11",
+    "name": "mypakt-keycloakify",
+    "version": "0.0.3",
+    "description": "Mypakt Theme",
     "repository": {
         "type": "git",
         "url": "git://github.com/codegouvfr/keycloakify-starter.git"
