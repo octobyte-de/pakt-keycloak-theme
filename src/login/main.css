@@ -1,0 +1,48 @@
+
+body.kcBodyClass {
+    background-color: black;
+    background-image: none;
+    color: white;
+}
+
+.kcLoginClass {
+    background-color: black;
+    background-image: none;
+    color: white;
+    padding-bottom: 10px;
+}
+
+
+.kcFormCardClass {
+    border: solid #d00102 2px;
+    background-color: black;
+    color: white;
+}
+
+.kcButtonPrimaryClass:hover {
+    background-color: #d00102;
+    color: black;
+}
+
+#kc-registration {
+    color: white;
+}
+
+#kc-info-wrapper  {
+    background-color: black;
+    color: #D3D3D3;
+
+}
+body .login-pf-page .card-pf p {
+    color: #D3D3D3;
+}
+
+.kcButtonPrimaryClass {
+        background: black none;
+        border: solid #d00102 2px;
+        width: 100%;
+        height: 40px;
+        color: white;
+        font-size: large;
+
+}
