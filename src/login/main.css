@@ -4,6 +4,11 @@
         text-align: center;
     }
 
+    #kc-header-wrapper {
+        padding: 0 0 0 0 ;
+    }
+
+
     body .login-pf-page .card-pf {
         margin-left: 10px;
         margin-right: 10px;
