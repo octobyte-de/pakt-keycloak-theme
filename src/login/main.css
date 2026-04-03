@@ -40,6 +40,19 @@ body.kcBodyClass {
     padding-bottom: 10px;
 }
 
+.kcInputClass {
+    border: solid #d00102 2px;
+    background-color: black;
+    color: white;
+}
+.kcInputClass:focus {
+    outline: none;
+}
+
+.pf-c-form-control:focus {
+    --pf-c-form-control--FocusOutlineWidth: 0;
+    box-shadow: none !important;
+}
 
 .kcFormCardClass {
     border: solid #d00102 2px;
