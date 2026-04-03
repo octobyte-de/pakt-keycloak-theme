@@ -72,5 +72,56 @@ body .login-pf-page .card-pf p {
         height: 40px;
         color: white;
         font-size: large;
+}
+
+.kcHyperLinkBox {
+    background: black none;
+    width: 100%;
+    height: 40px;
+    color: white;
+    font-size: large;
+}
+
+.kcHyperLinkBoxContent:hover {
+    background: #d00102;
+    color: black;
+}
+
+.kcHyperLinkBoxContent {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: solid #d00102 2px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    p {
+        margin: 0;
+    }
+}
+
+#kc-terms-text {
+    font-size: large;
+}
+#kc-decline {
+    margin-top: 4px;
+    background: #d00102;
+    border: solid #d00102 2px;
+    width: 100%;
+    height: 40px;
+    color: white;
+    font-size: large;
 
 }
+
+#kc-decline:hover {
+    color: black;
+}
+
+#kc-accept {
+    background: #4B9E39;
+    border: solid #4B9E39 2px;
+}
+

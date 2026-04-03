@@ -7,6 +7,8 @@ import Template from "./Template";
 
 import "./main.css";
 
+const Terms = lazy(() => import("./pages/Terms"));
+
 const UserProfileFormFields = lazy(
     () => import("keycloakify/login/UserProfileFormFields")
 );
@@ -22,6 +24,14 @@ export default function KcPage(props: { kcContext: KcContext }) {
         <Suspense>
             {(() => {
                 switch (kcContext.pageId) {
+                   case "terms.ftl": return (
+                        <Terms
+                            {...{ kcContext, i18n, classes }}
+                            Template={Template}
+                            doUseDefaultCss={true}
+                            />
+                       );
+
                     default:
                         return (
                             <DefaultPage
