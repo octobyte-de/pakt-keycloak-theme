@@ -33,7 +33,7 @@ export default function Terms(props: PageProps<Extract<KcContext, { pageId: "ter
                     </svg>
                 </div>
             </a>
-            <a href={"https://mypakt.com/pakt-datenschutzerklärung/"} target={"noref"} className={"kcHyperLinkBox"}>
+            <a href={"https://mypakt.com/pakt-datenschutz/"} target={"noref"} className={"kcHyperLinkBox"}>
                 <div className="kcHyperLinkBoxContent">
                     <p> {msg("openDataPrivacy")}</p>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" height={30} width={30}>
